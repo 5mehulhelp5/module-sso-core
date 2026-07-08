@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © MageDevGroup. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+    <type name="magedevgroup_ssocore" translate="label,description"
+          instance="MageDevGroup\SsoCore\Model\Cache\Type">
+        <label>MageDevGroup SSO Core</label>
+        <description>OIDC discovery and JWKS documents.</description>
+    </type>
+</config>
