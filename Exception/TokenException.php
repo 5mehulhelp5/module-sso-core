@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Exception;
+namespace DmLab\SsoCore\Exception;
 
 /**
  * Thrown when the token endpoint request fails or returns an unusable response.

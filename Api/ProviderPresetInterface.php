@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Api;
+namespace DmLab\SsoCore\Api;
 
 /**
  * IdP-specific preset supplied by a product module to the generic OIDC engine.

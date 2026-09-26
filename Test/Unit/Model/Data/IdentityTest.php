@@ -1,13 +1,13 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Model\Data;
+namespace DmLab\SsoCore\Test\Unit\Model\Data;
 
-use MageDevGroup\SsoCore\Api\Data\IdentityInterface;
-use MageDevGroup\SsoCore\Model\Data\Identity;
+use DmLab\SsoCore\Api\Data\IdentityInterface;
+use DmLab\SsoCore\Model\Data\Identity;
 use PHPUnit\Framework\TestCase;
 
 class IdentityTest extends TestCase

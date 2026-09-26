@@ -1,10 +1,10 @@
-# MageDevGroup_SsoCore
+# DmLab_SsoCore
 
-> Shared OIDC engine for the MageDevGroup SSO suite — the single dependency every login product builds on.
+> Shared OIDC engine for the DMLab SSO suite — the single dependency every login product builds on.
 
 ![License](https://img.shields.io/badge/license-OSL--3.0-green) ![Magento](https://img.shields.io/badge/Magento-2.4-orange) ![PHP](https://img.shields.io/badge/PHP-8.3--8.5-blue) ![Version](https://img.shields.io/badge/version-0.0.1-lightgrey)
 
-The shared OIDC/SSO engine for the MageDevGroup identity suite. It is installed
+The shared OIDC/SSO engine for the DMLab identity suite. It is installed
 transitively by every login product (`admin-sso-okta`, `customer-sso-okta`, ...),
 so you rarely require it directly.
 
@@ -67,7 +67,7 @@ IdP-specific code.
 Install pulls the core transitively:
 
 ```
-composer require magedevgroup/module-admin-sso-okta   # pulls magedevgroup/module-sso-core
+composer require dmlab/module-admin-sso-okta   # pulls dmlab/module-sso-core
 ```
 
 A product wires the flow using only the public surface — build the auth URL from
@@ -126,7 +126,7 @@ Stable contracts products depend on. Full method docs live in the interface file
 - `magento/framework >=103.0`
 - `web-token/jwt-framework ^4.0`
 
-## Part of the MageDevGroup identity suite
+## Part of the DMLab identity suite
 
 | Repo | Role |
 |------|------|
@@ -137,4 +137,4 @@ Stable contracts products depend on. Full method docs live in the interface file
 
 ## License
 
-[OSL-3.0](LICENSE) © MageDevGroup. Commercial licensing and support: <https://magedevgroup.com>.
+[OSL-3.0](LICENSE) © DMLab. Commercial licensing and support: <https://dmlab.work>.

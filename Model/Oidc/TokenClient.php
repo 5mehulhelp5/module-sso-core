@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Oidc;
+namespace DmLab\SsoCore\Model\Oidc;
 
-use MageDevGroup\SsoCore\Exception\TokenException;
+use DmLab\SsoCore\Exception\TokenException;
 use Magento\Framework\HTTP\ClientInterface;
 use Magento\Framework\Serialize\SerializerInterface;
 

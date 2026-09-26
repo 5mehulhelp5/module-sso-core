@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Oidc;
+namespace DmLab\SsoCore\Model\Oidc;
 
-use MageDevGroup\SsoCore\Exception\DiscoveryException;
+use DmLab\SsoCore\Exception\DiscoveryException;
 use Magento\Framework\Cache\FrontendInterface;
 use Magento\Framework\HTTP\ClientInterface;
 use Magento\Framework\Serialize\SerializerInterface;
@@ -17,7 +17,7 @@ use Magento\Framework\Serialize\SerializerInterface;
  */
 class DiscoveryClient
 {
-    private const CACHE_PREFIX = 'magedevgroup_ssocore_oidc_discovery_';
+    private const CACHE_PREFIX = 'dmlab_ssocore_oidc_discovery_';
 
     /**
      * Discovery keys required to drive the OIDC flow.

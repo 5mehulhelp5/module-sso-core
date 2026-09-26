@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Api;
+namespace DmLab\SsoCore\Api;
 
-use MageDevGroup\SsoCore\Api\Data\AuthorizationStateInterface;
+use DmLab\SsoCore\Api\Data\AuthorizationStateInterface;
 
 /**
  * Storage contract for the per-request authorization state (state, nonce, PKCE

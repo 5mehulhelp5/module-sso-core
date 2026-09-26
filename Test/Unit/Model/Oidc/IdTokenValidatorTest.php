@@ -1,13 +1,13 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Model\Oidc;
+namespace DmLab\SsoCore\Test\Unit\Model\Oidc;
 
-use MageDevGroup\SsoCore\Exception\IdTokenValidationException;
-use MageDevGroup\SsoCore\Model\Oidc\IdTokenValidator;
+use DmLab\SsoCore\Exception\IdTokenValidationException;
+use DmLab\SsoCore\Model\Oidc\IdTokenValidator;
 use Jose\Component\Core\AlgorithmManager;
 use Jose\Component\Core\JWK;
 use Jose\Component\Core\JWKSet;

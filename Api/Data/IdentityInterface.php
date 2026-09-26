@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Api\Data;
+namespace DmLab\SsoCore\Api\Data;
 
 /**
  * Normalized identity produced by the OIDC engine from validated IdP claims.

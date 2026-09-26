@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit;
+namespace DmLab\SsoCore\Test\Unit;
 
 use Magento\Framework\Component\ComponentRegistrar;
 use PHPUnit\Framework\TestCase;
@@ -15,13 +15,13 @@ class RegistrationTest extends TestCase
     {
         $paths = (new ComponentRegistrar())->getPaths(ComponentRegistrar::MODULE);
 
-        self::assertArrayHasKey('MageDevGroup_SsoCore', $paths);
+        self::assertArrayHasKey('DmLab_SsoCore', $paths);
     }
 
     public function testRegisteredPathPointsAtThisModule(): void
     {
         $paths = (new ComponentRegistrar())->getPaths(ComponentRegistrar::MODULE);
-        $path = $paths['MageDevGroup_SsoCore'] ?? null;
+        $path = $paths['DmLab_SsoCore'] ?? null;
 
         self::assertNotNull($path);
         self::assertDirectoryExists($path);

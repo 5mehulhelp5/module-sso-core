@@ -1,14 +1,14 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Model\Oidc;
+namespace DmLab\SsoCore\Test\Unit\Model\Oidc;
 
-use MageDevGroup\SsoCore\Exception\TokenException;
-use MageDevGroup\SsoCore\Model\Oidc\TokenClient;
-use MageDevGroup\SsoCore\Model\Oidc\TokenResponse;
+use DmLab\SsoCore\Exception\TokenException;
+use DmLab\SsoCore\Model\Oidc\TokenClient;
+use DmLab\SsoCore\Model\Oidc\TokenResponse;
 use Magento\Framework\HTTP\ClientInterface;
 use Magento\Framework\Serialize\Serializer\Json;
 use PHPUnit\Framework\TestCase;

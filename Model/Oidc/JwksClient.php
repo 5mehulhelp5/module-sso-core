@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Oidc;
+namespace DmLab\SsoCore\Model\Oidc;
 
-use MageDevGroup\SsoCore\Exception\IdTokenValidationException;
+use DmLab\SsoCore\Exception\IdTokenValidationException;
 use Jose\Component\Core\JWKSet;
 use Magento\Framework\Cache\FrontendInterface;
 use Magento\Framework\HTTP\ClientInterface;
@@ -17,7 +17,7 @@ use Magento\Framework\HTTP\ClientInterface;
  */
 class JwksClient
 {
-    private const CACHE_PREFIX = 'magedevgroup_ssocore_oidc_jwks_';
+    private const CACHE_PREFIX = 'dmlab_ssocore_oidc_jwks_';
 
     /**
      * Inject the HTTP client, cache, and cache lifetime.

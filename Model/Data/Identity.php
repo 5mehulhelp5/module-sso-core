@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Data;
+namespace DmLab\SsoCore\Model\Data;
 
-use MageDevGroup\SsoCore\Api\Data\IdentityInterface;
+use DmLab\SsoCore\Api\Data\IdentityInterface;
 
 /**
  * Immutable value object carrying a normalized identity.

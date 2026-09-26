@@ -1,14 +1,14 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Model\Oidc;
+namespace DmLab\SsoCore\Test\Unit\Model\Oidc;
 
-use MageDevGroup\SsoCore\Exception\DiscoveryException;
-use MageDevGroup\SsoCore\Model\Oidc\DiscoveryClient;
-use MageDevGroup\SsoCore\Model\Oidc\ProviderMetadata;
+use DmLab\SsoCore\Exception\DiscoveryException;
+use DmLab\SsoCore\Model\Oidc\DiscoveryClient;
+use DmLab\SsoCore\Model\Oidc\ProviderMetadata;
 use Magento\Framework\Cache\FrontendInterface;
 use Magento\Framework\HTTP\ClientInterface;
 use Magento\Framework\Serialize\Serializer\Json;

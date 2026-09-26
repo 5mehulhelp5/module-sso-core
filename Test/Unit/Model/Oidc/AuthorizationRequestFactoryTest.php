@@ -1,13 +1,13 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Model\Oidc;
+namespace DmLab\SsoCore\Test\Unit\Model\Oidc;
 
-use MageDevGroup\SsoCore\Model\Oidc\AuthorizationRequest;
-use MageDevGroup\SsoCore\Model\Oidc\AuthorizationRequestFactory;
+use DmLab\SsoCore\Model\Oidc\AuthorizationRequest;
+use DmLab\SsoCore\Model\Oidc\AuthorizationRequestFactory;
 use Magento\Framework\Math\Random;
 use PHPUnit\Framework\TestCase;
 
