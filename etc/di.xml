@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="MageDevGroup\SsoCore\Model\Oidc\DiscoveryClient">
+    <type name="DmLab\SsoCore\Model\Oidc\DiscoveryClient">
         <arguments>
-            <argument name="cache" xsi:type="object">MageDevGroup\SsoCore\Model\Cache\Type</argument>
+            <argument name="cache" xsi:type="object">DmLab\SsoCore\Model\Cache\Type</argument>
         </arguments>
     </type>
-    <type name="MageDevGroup\SsoCore\Model\Oidc\JwksClient">
+    <type name="DmLab\SsoCore\Model\Oidc\JwksClient">
         <arguments>
-            <argument name="cache" xsi:type="object">MageDevGroup\SsoCore\Model\Cache\Type</argument>
+            <argument name="cache" xsi:type="object">DmLab\SsoCore\Model\Cache\Type</argument>
         </arguments>
     </type>
 </config>

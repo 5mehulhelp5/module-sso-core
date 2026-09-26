@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Mapping;
+namespace DmLab\SsoCore\Model\Mapping;
 
 /**
  * Resolves IdP group/claim values into target keys via configurable rules.

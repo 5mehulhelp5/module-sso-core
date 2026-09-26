@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Model\Mapping;
+namespace DmLab\SsoCore\Test\Unit\Model\Mapping;
 
-use MageDevGroup\SsoCore\Model\Mapping\MappingEngine;
+use DmLab\SsoCore\Model\Mapping\MappingEngine;
 use PHPUnit\Framework\TestCase;
 
 class MappingEngineTest extends TestCase

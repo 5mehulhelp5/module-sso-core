@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Cache;
+namespace DmLab\SsoCore\Model\Cache;
 
 use Magento\Framework\App\Cache\Type\FrontendPool;
 use Magento\Framework\Cache\Frontend\Decorator\TagScope;
@@ -18,9 +18,9 @@ use Magento\Framework\Cache\Frontend\Decorator\TagScope;
  */
 class Type extends TagScope
 {
-    public const TYPE_IDENTIFIER = 'magedevgroup_ssocore';
+    public const TYPE_IDENTIFIER = 'dmlab_ssocore';
 
-    public const CACHE_TAG = 'MAGEDEVGROUP_SSOCORE';
+    public const CACHE_TAG = 'DMLAB_SSOCORE';
 
     /**
      * @param FrontendPool $cacheFrontendPool

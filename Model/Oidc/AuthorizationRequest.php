@@ -1,12 +1,12 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Oidc;
+namespace DmLab\SsoCore\Model\Oidc;
 
-use MageDevGroup\SsoCore\Api\Data\AuthorizationStateInterface;
+use DmLab\SsoCore\Api\Data\AuthorizationStateInterface;
 
 /**
  * Immutable result of building an OIDC authorization request: the ready-to-use

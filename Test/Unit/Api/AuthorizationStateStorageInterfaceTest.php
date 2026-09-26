@@ -1,14 +1,14 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit\Api;
+namespace DmLab\SsoCore\Test\Unit\Api;
 
-use MageDevGroup\SsoCore\Api\AuthorizationStateStorageInterface;
-use MageDevGroup\SsoCore\Api\Data\AuthorizationStateInterface;
-use MageDevGroup\SsoCore\Model\Oidc\AuthorizationRequest;
+use DmLab\SsoCore\Api\AuthorizationStateStorageInterface;
+use DmLab\SsoCore\Api\Data\AuthorizationStateInterface;
+use DmLab\SsoCore\Model\Oidc\AuthorizationRequest;
 use PHPUnit\Framework\TestCase;
 
 class AuthorizationStateStorageInterfaceTest extends TestCase

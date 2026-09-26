@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Api\Data;
+namespace DmLab\SsoCore\Api\Data;
 
 /**
  * One-time authorization state the consumer must persist between the redirect to

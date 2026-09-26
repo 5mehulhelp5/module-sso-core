@@ -1,16 +1,16 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Test\Unit;
+namespace DmLab\SsoCore\Test\Unit;
 
-use MageDevGroup\SsoCore\Api\ProviderPresetInterface;
-use MageDevGroup\SsoCore\Model\Mapping\MappingEngine;
-use MageDevGroup\SsoCore\Model\Oidc\AuthorizationRequestFactory;
-use MageDevGroup\SsoCore\Model\Oidc\IdentityFactory;
-use MageDevGroup\SsoCore\Model\Oidc\IdTokenValidator;
+use DmLab\SsoCore\Api\ProviderPresetInterface;
+use DmLab\SsoCore\Model\Mapping\MappingEngine;
+use DmLab\SsoCore\Model\Oidc\AuthorizationRequestFactory;
+use DmLab\SsoCore\Model\Oidc\IdentityFactory;
+use DmLab\SsoCore\Model\Oidc\IdTokenValidator;
 use Jose\Component\Core\AlgorithmManager;
 use Jose\Component\Core\JWK;
 use Jose\Component\Core\JWKSet;

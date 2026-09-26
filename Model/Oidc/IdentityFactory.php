@@ -1,14 +1,14 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Oidc;
+namespace DmLab\SsoCore\Model\Oidc;
 
-use MageDevGroup\SsoCore\Api\Data\IdentityInterface;
-use MageDevGroup\SsoCore\Api\ProviderPresetInterface;
-use MageDevGroup\SsoCore\Model\Data\Identity;
+use DmLab\SsoCore\Api\Data\IdentityInterface;
+use DmLab\SsoCore\Api\ProviderPresetInterface;
+use DmLab\SsoCore\Model\Data\Identity;
 
 /**
  * Normalizes a validated OIDC claim set into a provider-agnostic {@see Identity}.

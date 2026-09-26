@@ -1,10 +1,10 @@
 <?php
 /**
- * Copyright © MageDevGroup. All rights reserved.
+ * Copyright © DMLab. All rights reserved.
  */
 declare(strict_types=1);
 
-namespace MageDevGroup\SsoCore\Model\Oidc;
+namespace DmLab\SsoCore\Model\Oidc;
 
 /**
  * Immutable token endpoint response. `id_token` is required for OIDC; the rest
